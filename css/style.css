@@ -124,25 +124,6 @@ article img {
   padding: 20px;
 }
 
-aside {
-  width: 30%;
-  padding: 20px;
-  background-color: rgba(104, 96, 219, 0.37);
-  border-left: 5px dotted black;
-}
-
-.widget {
-  padding-bottom: 50px;
-}
-
-.widget img {
-  float: left;
-  border: 5px solid blue;
-  margin-right: 5px;
-  width: 100px;
-  padding: 5px;
-}
-
 .links ul {
   list-style-type: square;
 }
@@ -156,4 +137,60 @@ footer p {
   background-color: rgba(165, 42, 42, 0.295);
   padding: 50px;
   margin: 0;
+}
+aside {
+  width: 30%;
+  padding: 20px;
+  background-color: rgba(104, 96, 219, 0.37);
+  border-left: 2px solid brown;
+}
+
+/* @media rules od Mikołaja desktop*/
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  
+  aside {
+    width: 40%;
+    padding: 20px;
+    background-color: rgba(104, 96, 219, 0.37);
+    border-left: 2px solid brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  p{
+    font-style: italic;
+  }
+  h2 {
+    color: brown;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+.widget {
+  padding-bottom: 50px;
+  }
+  
+  .widget img {
+    float: left;
+    border: 2px solid brown;
+    margin-right: 5px;
+    width: 100px;
+    padding: 5px;
+  }
+  
+  .shortText {
+    background-color: rgb(216, 146, 16);
+    display: none;
+    width: 100%;
+
+  }
+  .links ul {
+    list-style-type: square;
+  }
+  
+  .links ul li {
+    padding-bottom: 5px;
+    color:brown
+  }
 }
